@@ -1,0 +1,14 @@
+.example__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.card-hover {
+  transition: all 0.3s;
+}
+
+.card-hover:hover {
+  transform: translateY(-20px) scale(1.1);
+  box-shadow: 2px 12px 18px 2px;
+}
